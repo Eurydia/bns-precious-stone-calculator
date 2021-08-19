@@ -54,9 +54,3 @@ net_profit = post_tax - gold_invested
 
 print(f'{gold_invested:.2f}\n{gold_return:.2f}\t{post_tax:.2f}\n{net_profit:.2f}', )
 
-
-
-
-
-
-
