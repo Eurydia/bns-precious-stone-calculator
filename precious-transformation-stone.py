@@ -52,5 +52,5 @@ gold_return = price_per_product * product_per_craft
 post_tax = gold_return * marketplace_tax
 net_profit = post_tax - gold_invested
 
-print(f'{gold_invested:.2f}\n{gold_return:.2f}\t{post_tax:.2f}\n{net_profit:.2f}', )
+print(f'{gold_invested=}\n{gold_return=}\n{post_tax=}\n{net_profit=}')
 
