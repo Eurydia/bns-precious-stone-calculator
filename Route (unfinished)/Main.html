@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="tab.css">
+<link rel="stylesheet" type="text/css" href="dropdown.css">
+<link rel="stylesheet" type="text/css" href="tooltip.css">
+</head>
+<body>
+<content>
+
+	<div class="tab" id="C0">
+	  <button class="tablinks" onclick="openCity(event, 'T1')">เนินเขามังกร</button>
+	  <button class="tablinks" onclick="openCity(event, 'T2')">ทะเลทรายมรณะ</button>
+	  <button class="tablinks" onclick="openCity(event, 'T3')">สวนสันติภาพ</button>
+	  <button class="tablinks" onclick="openCity(event, 'T4')">บุปผาน้ำแข็ง</button>
+	  <button class="tablinks" onclick="openCity(event, 'T5')">เมืองคอนวอน</button>
+	  <button class="tablinks" onclick="openCity(event, 'T6')">ซอรัค</button>
+	  <button class="tablinks" onclick="openCity(event, 'T7')">เกาะเวหาคันดาห์</button>
+	  <button class="tablinks" onclick="openCity(event, 'T8')">ฟาร์มเวหา</button>
+	</div>
+
+	<div id="T1" class="tabcontent">
+		<div class="fieldContainer">
+		    <div class="areaNumber"> 
+		    	Continent: 
+		    	<div>
+		    		<span class="highLight" id="C1R0"><a href="#C0">เนินเขามังกร</a></span>
+		    	</div>
+		    	Region: 
+		    </div>
+			<a href="#C1R1A0"><button class="areaButton" style="width: 20%; box-sizing: border-box;">แดนสนธยา</button></a>
+			<a href="#C1R2A0"><button class="areaButton" style="width: 20%; box-sizing: border-box;">ป่าแห่งเงามืด</button></a>
+			<a href="#C1R3A0"><button class="areaButton" style="width: 20%; box-sizing: border-box;">หุบเขาแห่งการฝึกฝน</button></a>
+			<a href="#"><button class="areaButton" style="width: 20%; box-sizing: border-box;">เกาะสนหิน</button></a>
+		</div>
+
+				<!-- AREA ONE-->
+				<!-- LOCATION DISPLAY START-->
+		<div class="fieldContainer">
+			<br>
+			<div class="areaNumber" id="C1R1A0">
+				Continent: 
+				<div>
+					<span class="highLight"><a href="#C0">เนินเขามังกร</a></span>
+				</div>
+					Region: 
+				<div>
+					<span class="highLight"><a href="#C1R0">แดนสนธยา</a></span><br>
+				</div>
+				<div style="padding-top: 2px;" id="C1R1A0">
+					Area: 
+				</div>
+			</div>
+				<!-- LOCATION DISPLAY END-->
+
+				<!-- LOCATION BUTTONS-->
+				<a href="#C1R1A1"><button class="areaButton" style="width: 20%; box-sizing: border-box;">หมู่บ้านไม้ไผ่</button></a>
+				<a href="#C1R1A2"><button class="areaButton" style="width: 20%; box-sizing: border-box;">โรงเผา</button></a>
+
+
+				<!-- LOCATION DISPLAY START-->
+			<div class="smaFieldContainer">
+				<div class="areaNumber" id="C1R1A1">
+					Continent: 
+					<div>
+						<span class="highLight"><a href="#C0">เนินเขามังกร</a></span>
+					</div>
+					Region: 
+					<div>
+						<span class="highLight"><a href="#C1R0">แดนสนธยา</a></span>
+					</div>
+					Area: 
+					<div>
+						<span class="highLight"><a href="#C1R1A0">หมู่บ้านไม้ไผ่</a></span>
+					</div>
+				</div>
+
+
+				<!-- INFO -->
+				<div class="clr"></div>
+				<div class="fieldContainer" style="border-bottom: 0px;">
+					<div class="sumInfo">Daily Quest: 
+							<span class="highLight">0</span> quest
+						</div>
+						<div class="sumInfo">Total Reward: 
+							<span class="highLight">0</span> gold,
+							<span class="highLight">0</span> silver,
+							<span class="highLight">0</span> copper,
+							<span class="highLight">0</span> naryu coin,
+							<span class="highLight">0</span> experience,
+							<span class="highLight">0</span> reward box
+						</div>
+					<span class="mainInfo">Daily Quests list:</span>
+					<ul>
+						<li style="color: crimson; font-weight: bolder;">No Daily Quest Available</li>
+					</ul>
+					<a href="#C0"><button class="areaButton">Back to Top</button></a>
+				</div>
+			</div>
+
+
+			<!-- AREA TWO-->
+			<!-- LOCATION DISPLAY-->
+			<div class="smaFieldContainer">
+				<div class="areaNumber" id="C1R1A2">
+					Continent: 
+					<div>
+						<span class="highLight"><a href="#C0">เนินเขามังกร</a></span>
+					</div>
+					Region: 
+					<div>
+						<span class="highLight"><a href="#C1R0">แดนสนธยา</a></span>
+					</div>
+					Area: 
+					<div>
+						<span class="highLight"><a href="#C1R1A0">โรงเผา</a></span>
+					</div>
+				</div>
+
+
+				<!-- INFO -->
+				<div class="clr"></div>
+				<div class="fieldContainer" style="border-bottom: 0px;">
+					<div class="sumInfo">Daily Quest: 
+							<span class="highLight">1</span> quest
+						</div>
+						<div class="sumInfo">Total Reward: 
+							<span class="highLight">0</span> gold,
+							<span class="highLight">1</span> silver,
+							<span class="highLight">40</span> copper,
+							<span class="highLight">0</span> naryu coin,
+							<span class="highLight">140</span> experience,
+							<span class="highLight">1</span> reward box
+						</div>
+					<span class="mainInfo">Daily Quests list:</span>
+					<ul>
+						<li class="mainInfo">
+							<span>ดร.เจียงฉีกับมิสเตอร์ไฮด์</span><br>
+							<ul>
+								<li>Reward : 1 silver, 40 copper, 140 exp, 1 reward box</li>
+							</ul>
+						</li>
+						<div class="clr"></div>
+					</ul>
+					<span class="mainInfo">Dungeons list:</span>
+				</div>
+			</div>
+		</div>
+
+
+
+
+			<!--Region TWO-->
+
+
+				<!-- AREA ONE-->
+				<!-- LOCATION DISPLAY START-->
+		<div class="fieldContainer">
+			<br>
+			<div class="areaNumber" id="C1R2A0">
+				Continent: 
+				<div>
+					<span class="highLight"><a href="#C0">เนินเขามังกร</a></span>
+				</div>
+					Region: 
+				<div>
+					<span class="highLight"><a href="#C1R0">ป่าแห่งเงามืด</a></span><br>
+				</div>
+				<div style="padding-top: 2px;" id="C1R2A0">
+					Area: 
+				</div>
+			</div>
+				<!-- LOCATION DISPLAY END-->
+
+				<!-- LOCATION BUTTONS-->
+				<a href="#C1R2A1"><button class="areaButton" style="width: 20%; box-sizing: border-box;">จุดพักป่าแห่งเงามืด</button></a>
+				<a href="#C1R2A2"><button class="areaButton" style="width: 20%; box-sizing: border-box;">ป่าแห่งเงามืด</button></a>
+
+
+				<!-- LOCATION DISPLAY START-->
+			<div class="smaFieldContainer">
+				<div class="areaNumber" id="C1R2A1">
+					Continent: 
+					<div>
+						<span class="highLight"><a href="#C0">เนินเขามังกร</a></span>
+					</div>
+					Region: 
+					<div>
+						<span class="highLight"><a href="#C1R0">ป่าแห่งเงามืด</a></span>
+					</div>
+					Area: 
+					<div>
+						<span class="highLight"><a href="#C1R2A0">จุดพักป่าแห่งเงามืด</a></span>
+					</div>
+				</div>
+
+
+				<!-- INFO -->
+				<div class="clr"></div>
+				<div class="fieldContainer" style="border-bottom: 0px;">
+					<div class="sumInfo">Daily Quest: 
+							<span class="highLight">1</span> quest
+						</div>
+						<div class="sumInfo">Total Reward: 
+							<span class="highLight">0</span> gold,
+							<span class="highLight">3</span> silver,
+							<span class="highLight">40</span> copper,
+							<span class="highLight">0</span> naryu coin,
+							<span class="highLight">360</span> experience,
+							<span class="highLight">1</span> reward box
+						</div>
+					<span class="mainInfo">Daily Quests list:</span>
+					<ul>
+						<li class="mainInfo">
+							<span>ช่วยเหลือท่านผู้พัน</span><br>
+							<ul>	
+								<li>Reward : 3 silver, 40 copper, 360 exp, 1 reward box</li>					
+							</ul>
+						</li>
+					</ul>
+					<a href="#C0"><button class="areaButton">Back to Top</button></a>
+				</div>
+			</div>
+
+
+			<!-- AREA TWO-->
+			<!-- LOCATION DISPLAY-->
+			<div class="smaFieldContainer">
+				<div class="areaNumber" id="C1R2A2">
+					Continent: 
+					<div>
+						<span class="highLight"><a href="#C0">เนินเขามังกร</a></span>
+					</div>
+					Region: 
+					<div>
+						<span class="highLight"><a href="#C1R0">ป่าแห่งเงามืด</a></span>
+					</div>
+					Area: 
+					<div>
+						<span class="highLight"><a href="#C1R1A0">เตาเผาถ่าน</a></span>
+					</div>
+				</div>
+
+
+				<!-- INFO -->
+				<div class="clr"></div>
+				<div class="fieldContainer" style="border-bottom: 0px;">
+					<div class="sumInfo">Daily Quest: 
+							<span class="highLight">2</span> quest
+					</div>
+					<div class="sumInfo">Total Reward: 
+						<span class="highLight">0</span> gold,
+						<span class="highLight">9</span> silver,
+						<span class="highLight">20</span> copper,
+						<span class="highLight">0</span> naryu coin,
+						<span class="highLight">800</span> experience,
+						<span class="highLight">2</span> reward box
+					</div>
+					<span class="mainInfo">Daily Quests list:</span>
+					<ul>
+						<li class="mainInfo">
+							<span>รากของปีศาจทั้งหลาย</span><br>	
+							<ul>
+								<li>Reward : 4 silver, 20 copper, 360 exp, 1 reward box</li>
+							</ul>
+						</li>
+						<li class="mainInfo">
+							<span  >แสงแวววับเหล่านั้น</span><br>	
+							<ul>
+								<li>Reward : 5 silver, 450 exp, 1 reward box</li>
+							</ul>
+						</li>
+						<div class="clr"></div>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!--Region THREE-->
+
+
+				<!-- AREA ONE-->
+				<!-- LOCATION DISPLAY START-->
+		<div class="fieldContainer">
+			<br>
+			<div class="areaNumber" id="C1R3A0">
+				Continent: 
+				<div>
+					<span class="highLight"><a href="#C0">เนินเขามังกร</a></span>
+				</div>
+					Region: 
+				<div>
+					<span class="highLight"><a href="#C1R0">หุบเขาแห่งการฝึกฝน</a></span><br>
+				</div>
+				<div style="padding-top: 2px;" id="C1R2A0">
+					Area: 
+				</div>
+			</div>
+				<!-- LOCATION DISPLAY END-->
+
+				<!-- LOCATION BUTTONS-->
+				<a href="#C1R3A1"><button class="areaButton" style="width: 20%; box-sizing: border-box;">หมู่บ้านหินหยก</button></a>
+				<a href="#C1R3A2"><button class="areaButton" style="width: 20%; box-sizing: border-box;">ลำธารแห่งการฝึกฝน</button></a>
+				<a href="#C1R3A3"><button class="areaButton" style="width: 20%; box-sizing: border-box;">ผาเกล็ดมังกร</button></a>
+				<a href="#C1R3A4"><button class="areaButton" style="width: 20%; box-sizing: border-box;">เกาะสนหิน</button></a>
+				<a href="#C1R3A6"><button class="areaButton" style="width: 20%; box-sizing: border-box;">ที่รกร้างกริมฮอร์น</button></a>
+
+
+				<!-- LOCATION DISPLAY START-->
+			<div class="smaFieldContainer">
+				<div class="areaNumber" id="C1R3A1">
+					Continent: 
+					<div>
+						<span class="highLight"><a href="#C0">เนินเขามังกร</a></span>
+					</div>
+					Region: 
+					<div>
+						<span class="highLight"><a href="#C1R0">หุบเขาแห่งการฝึกฝน</a></span>
+					</div>
+					Area: 
+					<div>
+						<span class="highLight"><a href="#C1R3A0">หมู่บ้านหินหยก</a></span>
+					</div>
+				</div>
+
+
+				<!-- INFO -->
+				<div class="clr"></div>
+				<div class="fieldContainer" style="border-bottom: 0px;">
+					<div class="sumInfo">Daily Quest: 
+							<span class="highLight">2</span> quest
+						</div>
+						<div class="sumInfo">Total Reward: 
+							<span class="highLight">0</span> gold,
+							<span class="highLight">13</span> silver,
+							<span class="highLight">80</span> copper,
+							<span class="highLight">0</span> naryu coin,
+							<span class="highLight">1400</span> experience OR 2 key,
+							<span class="highLight">2</span> reward box
+						</div>
+					<span class="mainInfo">Daily Quests list:</span>
+					<ul class="mainInfo">
+						<li class="mainInfo">
+							<span>การบุกรุก</span><br>	
+							<ul>	
+								<li>Reward : 6 silver, 90 copper, 3 naryu coin OR 1 key, 700 exp, 1 reward box, 1 dynamic quest reward box</li>
+							</ul>
+						</li>
+						<li class="mainInfo">
+							<span>สัตว์เลี้ยงที่หลงทาง</span><br>	
+							<ul>
+								<li>Reward : 6 silver, 90 copper, 3 naryu coin OR 1 key, 700 exp, 1 reward box, 1 dynamic quest reward box</li>
+							</ul>
+						</li>
+					</ul>
+					<a href="#C0"><button class="areaButton">Back to Top</button></a>
+				</div>
+			</div>
+
+
+			<!-- AREA TWO-->
+			<!-- LOCATION DISPLAY-->
+			<div class="smaFieldContainer">
+				<div class="areaNumber" id="C1R3A2">
+					Continent: 
+					<div>
+						<span class="highLight"><a href="#C0">เนินเขามังกร</a></span>
+					</div>
+					Region: 
+					<div>
+						<span class="highLight"><a href="#C1R0">หุบเขาแห่งการฝึกฝน</a></span>
+					</div>
+					Area: 
+					<div>
+						<span class="highLight"><a href="#C1R3A0">ลำธารแห่งการฝึกฝน</a></span>
+					</div>
+				</div>
+
+
+				<!-- INFO -->
+				<div class="clr"></div>
+				<div class="fieldContainer" style="border-bottom: 0px;">
+					<div class="sumInfo">Daily Quest: 
+							<span class="highLight">3</span> quest
+						</div>
+						<div class="sumInfo">Total Reward: 
+							<span class="highLight">0</span> gold,
+							<span class="highLight">6</span> silver,
+							<span class="highLight">97</span> copper,
+							<span class="highLight">0</span> naryu coin,
+							<span class="highLight">1890</span> experience,
+							<span class="highLight">2</span> reward box
+						</div>
+					<span class="mainInfo">Daily Quests list:</span>
+					<ul>
+						<li class="mainInfo">
+							<span>ความรู้คือ อำนาจ</span>
+							<ul>
+								<li>Reward : 2 silver, 26 copper, 810 exp, 1 reward box, 1 gem box (Triangle)</li>
+							</ul>
+						</li>
+						<li class="mainInfo">
+							<span>หนวกหูกบพวกนี้จริงๆ</span>
+							<ul>
+								<li>Reward : 2 silver, 26 copper, 810 exp, 1 reward box</li>
+							</ul>
+						</li>
+						<li class="mainInfo">
+							<span>ถ้ำหมี</span>
+							<ul>
+								<li>Reward : 2 silver, 45 copper, 270 exp, 1 reward box</li>
+							</ul>
+						</li>
+						<div class="clr"></div>
+					</ul>
+					<a href="#C0"><button class="areaButton">Back to Top</button></a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!-- AREA THREE-->
+			<!-- LOCATION DISPLAY-->
+			<div class="smaFieldContainer">
+				<div class="areaNumber" id="C1R3A3">
+					Continent: 
+					<div>
+						<span class="highLight"><a href="#C0">เนินเขามังกร</a></span>
+					</div>
+					Region: 
+					<div>
+						<span class="highLight"><a href="#C1R0">หุบเขาแห่งการฝึกฝน</a></span>
+					</div>
+					Area: 
+					<div>
+						<span class="highLight"><a href="#C1R3A0">ผาเกล็ดมังกร</a></span>
+					</div>
+				</div>
+
+
+				<!-- INFO -->
+				<div class="clr"></div>
+				<div class="fieldContainer" style="border-bottom: 0px;">
+					<div class="sumInfo">Daily Quest: 
+							<span class="highLight">2</span> quest
+						</div>
+						<div class="sumInfo">Total Reward: 
+							<span class="highLight">0</span> gold,
+							<span class="highLight">16</span> silver,
+							<span class="highLight">20</span> copper,
+							<span class="highLight">0</span> naryu coin,
+							<span class="highLight">900</span> experience,
+							<span class="highLight">2</span> reward box
+						</div>
+					<span class="mainInfo">Daily Quests list:</span>
+					<ul>
+						<li class="mainInfo">
+							<span>การเปลี่ยนแปลงของเหล่าผู้พิทักษ์ที่สาบสูญ</span>
+							<ul>
+								<li>Reward : 8 silver, 10 copper, 450 exp, 1 reward box</li>
+							</ul>
+						</li>
+						<li class="mainInfo">
+							<span>เห็ดที่เจ็บปวด</span>
+							<ul>
+								<li>Reward : 8 silver, 10 copper, 450 exp, 1 loot box</li>
+							</ul>
+						</li>
+						<div class="clr"></div>
+					</ul>
+					<a href="#C0"><button class="areaButton">Back to Top</button></a>
+				</div>
+			</div>
+
+
+
+			<!-- AREA FOUR-->
+			<!-- LOCATION DISPLAY-->
+			<div class="smaFieldContainer">
+				<div class="areaNumber" id="C1R3A4">
+					Continent: 
+					<div>
+						<span class="highLight"><a href="#C0">เนินเขามังกร</a></span>
+					</div>
+					Region: 
+					<div>
+						<span class="highLight"><a href="#C1R0">หุบเขาแห่งการฝึกฝน</a></span>
+					</div>
+					Area: 
+					<div>
+						<span class="highLight"><a href="#C1R3A0">เกาะสนหิน</a></span>
+					</div>
+				</div>
+				<a href="#C1R3A5S1"><button class="areaButton" style="width: 20%; box-sizing: border-box;">เกาะสนหิน</button></a>
+				<a href="#C1R3A5S2"><button class="areaButton" style="width: 20%; box-sizing: border-box;">ที่ราบหินยักษ์</button></a>
+				<a href="#C1R3A5S3"><button class="areaButton" style="width: 20%; box-sizing: border-box;">หนวยรบกลุ่มทมิฬใต้</button></a>
+
+				<!-- INFO -->
+				<div class="clr"></div>
+				<div class="fieldContainer" style="border-bottom: 0px;">
+					<div class="sumInfo">Daily Quest: 
+							<span class="highLight">2</span> quest
+						</div>
+						<div class="sumInfo">Total Reward: 
+							<span class="highLight">0</span> gold,
+							<span class="highLight">16</span> silver,
+							<span class="highLight">20</span> copper,
+							<span class="highLight">0</span> naryu coin,
+							<span class="highLight">900</span> experience,
+							<span class="highLight">2</span> reward box
+						</div>
+					<span class="mainInfo">Daily Quests list:</span>
+					<ul>
+						<li class="mainInfo">
+							<span>การเปลี่ยนแปลงของเหล่าผู้พิทักษ์ที่สาบสูญ</span>
+							<ul>
+								<li>Reward : 8 silver, 10 copper, 450 exp, 1 reward box</li>
+							</ul>
+						</li>
+						<li class="mainInfo">
+							<span>เห็ดที่เจ็บปวด</span>
+							<ul>
+								<li>Reward : 8 silver, 10 copper, 450 exp, 1 loot box</li>
+							</ul>
+						</li>
+						<div class="clr"></div>
+					</ul>
+					<a href="#C0"><button class="areaButton">Back to Top</button></a>
+				</div>
+			</div>
+
+
+
+
+		
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+</content>
+</body>
+</html> 

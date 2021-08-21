@@ -1,0 +1,122 @@
+*{
+	word-spacing: 5px;
+	line-height: 45px;
+}
+body {
+	font-family: century-gothic;
+	margin: 0em  5em 5em 5em;
+	background-color: black;
+	color: white;	
+}
+
+abbr {
+	text-decoration: none;
+	color: blueviolet;
+}
+
+ul{
+	list-style-type: none;
+}
+
+img {
+	width: 33.33%;
+	height: auto;
+	float: left;
+	padding: 20px 20px 20px 0px;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: blueviolet;
+
+}
+
+a:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.clr {
+	clear: both;
+}
+
+.naryu {
+	color: crimson;
+	font-weight: bolder;
+}
+
+.areaNumber {
+	background-color: black;
+    color: white;
+    padding-top: 15px;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    min-width: 00px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.areaButton {
+    background-color: black;
+    color: white;
+    padding: 12px 12px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    min-width: 00px;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+	text-align: center;
+}
+
+.areaButton:hover {
+	background-color: blueviolet;
+}
+
+.areaButtonD:hover {
+	background-color: crimson;
+}
+
+.fieldContainer {
+	border-bottom: 1px solid white;
+}
+
+.smaFieldContainer{
+	padding: 12px 0px;
+	border-top: 1px solid white;
+}
+
+.highLight {
+	color: blueviolet;
+}
+
+.highLightD {
+	color: crimson;
+}
+
+.sumInfo {
+	font-stretch: extra-expanded;
+	padding: 12px 18px;
+}
+
+.sumInfo .highLight {
+	font-weight: bolder;
+}
+
+.mainInfo {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.mainInfo > span {
+	color: blueviolet;
+}
+
+ul span {
+	color: blueviolet;
+}

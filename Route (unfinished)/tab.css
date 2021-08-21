@@ -1,0 +1,50 @@
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid white;
+    background-color: black;
+    width: 100%;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+    width: 33.3%;
+    height: 50%;
+    border-width: 1px;
+    font-weight: bolder;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border: none;
+    height: 80%;
+}
+
+.tabcontent li{
+    line-height: 2em;
+}
+
+.tab button:hover {
+    background-color: blueviolet;
+
+}
+
+.tablinks {
+    background-color: black;
+    color: white;
+    padding: 12px 16px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    min-width: 160px;
+    text-align: center;
+}
